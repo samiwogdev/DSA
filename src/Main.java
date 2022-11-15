@@ -5,6 +5,8 @@ public class Main {
 //        printNumbers.nCube(10);
         int[] studentAge = {23, 18, 26, 19, 20};
 //        printNumbers.quadraticTimeComplexity(studentAge, 5);
-        printNumbers.fibonacci(4);
+//        printNumbers.fibonacci(4);
+        Pointers.printMap();
+//          Pointers.noPointers();
     }
 }
