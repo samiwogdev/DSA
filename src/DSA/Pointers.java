@@ -1,8 +1,10 @@
+package DSA;
+
 import java.util.HashMap;
 
 public class Pointers {
 
-    static void printMap(){
+    public static void printMap(){
         HashMap<String, Integer> map1 = new HashMap<>();
         HashMap<String, Integer> map2 = new HashMap<>();
         map1.put("age", 11);
@@ -14,7 +16,7 @@ public class Pointers {
         System.out.println(map2);
     }
 
-    static void noPointers(){
+    public static void noPointers(){
         int num1 = 6;
         int num2 = num1;
         num1 = 7;
