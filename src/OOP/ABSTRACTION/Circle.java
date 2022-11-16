@@ -22,4 +22,8 @@ package OOP.ABSTRACTION;
                 + " and area is : "
                 + area();
     }
+
+    public String getColor(){ //shape class  concrete method
+         return color;
+    }
 }
