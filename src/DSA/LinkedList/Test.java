@@ -25,7 +25,8 @@ public class Test {
 //        list.insert(0, 100);
         list.printList();
         System.out.println("\n");
-        list.remove(2);
+//        list.remove(2);
+        list.reverse();
         list.printList();
    }
 }
