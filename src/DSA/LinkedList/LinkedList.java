@@ -101,6 +101,16 @@ package DSA.LinkedList;
          return temp;
      }
 
+     public Node get(int index){
+         if (index < 1 || index > length){
+             return null;
+         }
+         Node temp = head;
+         for (int i = 0 ; i < length; i ++){
+             temp = temp.next;
+         }
+         return temp;
+     }
 //     class Node{ //Inner class concept
 //         int value;
 //         Node next;
