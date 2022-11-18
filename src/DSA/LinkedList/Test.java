@@ -5,7 +5,7 @@ public class Test {
         LinkedList list = new LinkedList(2);
         list.append(3);
 //        list.append(4);
-//        list.prepend(1);
+        list.prepend(1);
 //        list.removeLast();
 
 //        list.getHead();
@@ -14,10 +14,11 @@ public class Test {
         list.printList();
 //        list.getTail();
 //        list.getHead();
-        System.out.println(list.removeFirst());
-        System.out.println(list.removeFirst());
-        System.out.println(list.removeFirst());
-               list.getHead();
-               list.getTail();
+//        System.out.println(list.removeFirst());
+//        System.out.println(list.removeFirst());
+//        System.out.println(list.removeFirst());
+//               list.getHead();
+//               list.getTail();
+        System.out.println( list.get(2).value);
    }
 }

@@ -102,14 +102,14 @@ package DSA.LinkedList;
      }
 
      public Node get(int index){
-         if (index < 1 || index > length){
+         if (index < 1 || index >= length){
              return null;
          }
          Node temp = head;
-         for (int i = 0 ; i < length; i ++){
+         for (int i = 0 ; i < index; i ++){
              temp = temp.next;
          }
-         return temp;
+         return  temp;
      }
 //     class Node{ //Inner class concept
 //         int value;
