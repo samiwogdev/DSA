@@ -19,10 +19,13 @@ public class Test {
 //               list.getHead();
 //               list.getTail();
 //        System.out.println( list.get(2).value + "\n");
+//        list.printList();
+//        System.out.println("\n");
+//        list.set(1, 20);
+//        list.insert(0, 100);
         list.printList();
         System.out.println("\n");
-        list.set(1, 20);
-        list.insert(0, 100);
+        list.remove(2);
         list.printList();
    }
 }
